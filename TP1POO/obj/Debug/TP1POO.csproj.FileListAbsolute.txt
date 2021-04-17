@@ -1,0 +1,7 @@
+C:\Users\letsg\source\repos\TP1POO\TP1POO\obj\Debug\TP1POO.csprojAssemblyReference.cache
+C:\Users\letsg\source\repos\TP1POO\TP1POO\obj\Debug\TP1POO.csproj.CoreCompileInputs.cache
+C:\Users\letsg\source\repos\TP1POO\TP1POO\bin\Debug\TP1POO.exe.config
+C:\Users\letsg\source\repos\TP1POO\TP1POO\bin\Debug\TP1POO.exe
+C:\Users\letsg\source\repos\TP1POO\TP1POO\bin\Debug\TP1POO.pdb
+C:\Users\letsg\source\repos\TP1POO\TP1POO\obj\Debug\TP1POO.exe
+C:\Users\letsg\source\repos\TP1POO\TP1POO\obj\Debug\TP1POO.pdb
