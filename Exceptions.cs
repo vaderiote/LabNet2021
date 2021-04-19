@@ -4,13 +4,16 @@ namespace TP2Exceptions
 {
     public class Exceptions
     {
-       
         
+
+
         public static void LogicEj3()
         {
             try
             {
                 DateTime? fechaConValorNull = null;
+
+                string fechaFormateada = fechaConValorNull.Value.ToString("MM/yy");
                 Console.WriteLine("Esto esta mal");
             }
 

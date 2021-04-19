@@ -8,7 +8,7 @@ namespace TP2Exceptions
 {
     public class LogicEj3 : Exception
     {
-         public LogicEj3() : base("Mensaje de error de custom exception")
+         public LogicEj3() : base("Mensaje de error de custom exception" )
         {
 
         }

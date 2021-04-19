@@ -31,6 +31,7 @@ namespace TP2Exceptions
             try
             {
                 Exceptions.LogicEj3();
+                
             }
             catch (LogicEj3 ex)
             {
