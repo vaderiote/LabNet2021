@@ -1,0 +1,11 @@
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\bin\Debug\LabNet.TP-EF.Entities.dll.config
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\bin\Debug\LabNet.TP-EF.Entities.dll
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\bin\Debug\LabNet.TP-EF.Entities.pdb
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\bin\Debug\EntityFramework.dll
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\bin\Debug\EntityFramework.xml
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\obj\Debug\LabNet.TP-EF.Entities.csproj.CoreCompileInputs.cache
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\obj\Debug\LabNet.TP-EF.Entities.csproj.CopyComplete
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\obj\Debug\LabNet.TP-EF.Entities.dll
+C:\Users\letsg\source\repos\LabNet.TP-EF\LabNet.TP-EF.Entities\obj\Debug\LabNet.TP-EF.Entities.pdb
