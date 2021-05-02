@@ -77,7 +77,7 @@ namespace LabNet.TP_EF.UI
 
             /*DELETE - Entidad 'CATEGORIES'. */
 
-            categoriesLogic.Delete(9);
+            categoriesLogic.Delete(10);
 
             foreach (var cat in categoriesLogic.GetAll())
             {
