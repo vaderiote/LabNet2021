@@ -1,0 +1,12 @@
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\bin\Debug\LabNET.TP-LinQ.Entities.dll.config
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\bin\Debug\LabNET.TP-LinQ.Entities.dll
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\bin\Debug\LabNET.TP-LinQ.Entities.pdb
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\bin\Debug\EntityFramework.dll
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\bin\Debug\EntityFramework.xml
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\obj\Debug\LabNET.TP-LinQ.Entities.csprojAssemblyReference.cache
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\obj\Debug\LabNET.TP-LinQ.Entities.csproj.CoreCompileInputs.cache
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\obj\Debug\LabNET.TP-LinQ.Entities.csproj.CopyComplete
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\obj\Debug\LabNET.TP-LinQ.Entities.dll
+C:\Users\letsg\source\repos\LabNET.TP-LinQ\LabNET.TP-LinQ.Entities\obj\Debug\LabNET.TP-LinQ.Entities.pdb
