@@ -1,0 +1,21 @@
+﻿@model LabNet.TP_MVC.Models.CategoriesView
+@{
+    ViewBag.Title = "Categories page";
+}
+
+<h1>Vista para Insertar categorias</h1>
+
+@using (Html.BeginForm("Insert", "Categories", FormMethod.Post))
+{
+    @Html.TextBoxFor(c => c.Id)
+    <label> <= ID </label>
+    <br />
+
+    @Html.TextBoxFor(c => c.Description)
+    <label> <= Description </label>
+
+   
+    <br />
+    <input type="submit" class="btn btn-success" value="Guardar" />
+}
+

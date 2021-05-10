@@ -1,0 +1,22 @@
+﻿@model LabNet.TP_MVC.Models.CategoriesUpdateView
+@{
+    ViewBag.Title = "Update page";
+}
+
+<h1>Vista para modificar Categorias</h1>
+
+@using (Html.BeginForm("Insert", "Categories", FormMethod.Post))
+{
+    @Html.TextBoxFor(c => c.Id)
+    <textbox>Id: </textbox>
+    <br />
+    <br />
+    @Html.TextBoxFor(c => c.CategoryName)
+    <textbox>Nombre: </textbox>
+    <br />
+    <br />
+   @Html.TextBoxFor(c =>c.Description)
+    <textbox>Descripcion :</textbox>
+    <input type="submit" class="btn btn-success" value="Guardar" />
+}
+
