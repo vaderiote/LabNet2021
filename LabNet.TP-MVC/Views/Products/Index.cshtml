@@ -1,0 +1,30 @@
+﻿@model List<LabNet.TP_MVC.Models.ProductsView>
+
+@{
+    <h1>Esta es mi Index de Productos</h1>
+}
+
+<table class="table table-dark">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="row"> ID </th>
+            <th scope="row"> Description </th>
+            <th scope="row">Opciones </th>
+        </tr>
+    </thead>
+
+    @foreach (var product in Model)
+    {
+        <tr>
+            <th scope="row">@product.Id</th>
+            <th scope="row">@product.Description</th>
+            <th scope="row">@Html.ActionLink("Borrar", "Delete", new {Id = product.Id }, new { onclick = "return confirm('Esta seguro de borrar?')" })</th>
+         </tr>
+
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink("Insertar un nuevo producto", "Insert")
+</div>

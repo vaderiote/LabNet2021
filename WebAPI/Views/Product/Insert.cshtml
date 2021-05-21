@@ -1,0 +1,20 @@
+﻿@model WebAPI.Models.ProductsView
+
+@{
+    ViewBag.Title = "Insert";
+}
+
+<h2>Inserte Nuevo Producto</h2>
+
+@using (Html.BeginForm("Insert", "Product", FormMethod.Post))
+{
+    @Html.TextBoxFor(p => p.ProductName)
+    <label>Name: </label>
+
+
+
+    <input type="submit" class="btn btn-success" value="Guardar" />
+
+}
+
+

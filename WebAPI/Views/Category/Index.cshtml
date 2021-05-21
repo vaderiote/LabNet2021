@@ -1,0 +1,39 @@
+﻿@model List < WebAPI.Models.Categoriesview>
+
+@{
+    <h2>Index</h2>
+    ViewBag.Title = "Vista de Categorias";
+}
+
+
+<table class="table table-dark">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="row">Category Description</th>
+            <th scope="row">Category Name</th>
+            <th scope="row">Id</th>
+            <th scope="row">Opciones</th>
+        </tr>
+    </thead>
+
+    @foreach (var category in Model)
+    {
+<tr>
+    <th scope="row">@category.name</th>
+    <th scope="row">@category.Description</th>
+    <th scope="row">@category.Id</th>
+    <th scope="row">@Html.ActionLink("Borrar", "Delete", new { Id = category.Id }, new { onclick = "return confirm('Esta seguro de borrar?')" })</th>
+
+</tr>
+    }
+
+
+    <div class="btn btn-success">
+        @Html.ActionLink("Insertar Nueva Categoria", "Insert", FormMethod.Post)
+
+    </div>
+</table>
+
+
+
+

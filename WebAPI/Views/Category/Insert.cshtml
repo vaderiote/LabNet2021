@@ -1,0 +1,20 @@
+﻿@model WebAPI.Models.Categoriesview
+@{
+    ViewBag.Title = "Insert";
+}
+
+
+
+<h2>Inserte Nueva Categoria </h2>
+
+@using (Html.BeginForm("Insert", "Category", FormMethod.Post))
+{
+    @Html.TextBoxFor(c => c.name)
+    <label>Name: </label>
+    <br />
+    @Html.TextBoxFor(c => c.Description)
+    <label>Description: </label>
+
+    <input type="submit" class="btn btn-success" value="Guardar" />
+
+}

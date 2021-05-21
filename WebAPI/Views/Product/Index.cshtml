@@ -1,0 +1,35 @@
+﻿@model List<WebAPI.Models.ProductsView>
+
+@{
+    <h2>Index</h2>
+    ViewBag.Title = "Vista de productos";
+}
+
+
+<table class="table table-dark">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="row">Product Name</th>
+
+            <th scope="row">ID</th>
+
+            <th scope="row">Opciones</th>
+        </tr>
+    </thead>
+
+    @foreach (var products in Model)
+    {
+<tr>
+    <th scope="row">@products.ProductName</th>
+
+    <th scope="row">@products.Id</th>
+    <th scope="row">@Html.ActionLink("Delete", "Delete", new { Id = products.Id }, new { onclick = "return confirm('Esta seguro de borrar?')" })</th>
+</tr>
+    }
+
+
+    <div class="btn btn-success">
+           @Html.ActionLink("Insertar un nuevo producto", "Insert", FormMethod.Post)
+        
+    </div>
+</table>

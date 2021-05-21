@@ -1,0 +1,29 @@
+﻿@model List<WebAPI.Models.ApiView>
+@{
+    ViewBag.Title = "Lista DIGIMON";
+}
+
+<h2>Index</h2>
+
+
+
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Level</th>
+                <th scope="col">Image</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var api in Model)
+            {
+                <tr>
+                    <td scope="col">@api.name</td>
+                    <td scope="col">@api.level</td>
+                    <td scope="col">@api.Img</td>
+                </tr>
+            }
+        </tbody>
+    </table>

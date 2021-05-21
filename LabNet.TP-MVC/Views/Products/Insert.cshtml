@@ -1,0 +1,12 @@
+﻿@model LabNet.TP_MVC.Models.ProductsView
+@{ 
+    ViewBag.Title = "Products Page";
+}
+
+<h1>Vista para insertar productos</h1>
+
+@using (Html.BeginForm("Insert", "Products", FormMethod.Post))
+{
+    <label>Description: </label> @Html.TextBoxFor(p => p.Description)
+    <input type="submit" class="btn btn-success" value="Guardar"/>
+}
